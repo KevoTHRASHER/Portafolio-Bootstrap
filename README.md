@@ -1,4 +1,4 @@
-<h1 style="align: center color:green">Portafolio Bootstrap</h>
+<h1 align="center" style="color:green">Portafolio Bootstrap</h>
 <br/>
 <h3>Simple Portafolio escrito con Bootstrap 5</h3>
 
