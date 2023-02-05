@@ -1,3 +1,5 @@
+/*  Barra de navegacion */
+
 .navbar {
   padding: 2rem;
   background-color: #f5f6f7;
@@ -6,4 +8,24 @@
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
+}
+
+.section-hero {
+    background-color: #f5f6f7;
+    height: 500px;
+    width: 100%;
+}
+
+.hero-imagen-avatar {
+    margin: 20px;
+}
+
+
+
+/*  Media Queries Adaptable (Responsivo) */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
 }
