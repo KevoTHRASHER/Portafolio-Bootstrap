@@ -1,21 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box:
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
 }
 
-.box {
-    width: 100%;
-    height: 100%;
-}
-
-ul {
-    text-align: justify;
-    list-style: inside;
-}
-
-.clasesGrilla {
-    text-align: justify;
-    display: inline-block;
-    vertical-align: middle;
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
 }

@@ -1,34 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <!--    METADATOS   -->
+    <meta charset="utf-8">
+    <meta name="author" content="Kevo.THRASHER">
+    <meta name="description" content="Portafolio de Desarrollo">
+    <meta name="keywords" content="HTML, CSS, Javascript, Bootstrap">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    TITULO  -->
+    <title>Portafolio | Kevo.THRASHER</title>
+    <!--    FAVICON     -->
+    <link rel="shortcut icon" type="image/x-icon" href="css/icons/laptop.svg">
+    <!--    BOOTSTRAP   -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+    <!--    BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="img/icons/bootstrap-icons.css" media="all">
+    <!--    STYLE CSS   -->
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/icons./bootstrap-icons.css" media="all">
-
-    <title>Portafolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-body-tertiary">
-        <div class="container-fluid justify-content-start align-items-center">
-            <a class="navbar-brand" href="#">
-                <i class="bi bi-android2" alt="Kevo.THRASHER"></i>
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navabarNavAltMarkup" aria-expanded="false" aria-label="Toggle Navigation">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav text-center">
-                    <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
-                    <a class="nav-link" href="#">Proyectos</a>
-                    <a class="nav-link" href="#">Testimonios</a>
-                    <a class="nav-link" href="#">Contacto</a>
-                </div>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="img/icono.png" width="50" alt="Logo Kevo.THRASHER">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-    <script src="js/bootstrap.min.js"></script>
+    <!--    BOOTSTRAP JAVASCRIPT    -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
