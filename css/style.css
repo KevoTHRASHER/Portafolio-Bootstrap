@@ -26,13 +26,13 @@ h1 {
 /*  Barra de navegacion */
 
 .navbar {
-  padding: 2rem;
-  background-color: #f5f6f7;
+    padding: 2rem;
+    background-color: #f5f6f7;
 }
 
 .navbar-collapse {
-  align-items: center;
-  justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /*  Seccion HERO    */
@@ -126,9 +126,97 @@ h1 {
     margin: 5px;
 }
 
-/*  Media Queries container */
+/*  Seccion Proyectos Recientes   */
 
+.proyectos-recientes {
 
+}
+
+.proyectos-recientes h2 {
+    font-family: "Rubik Dirt";
+    padding: 15px 0;
+    font-size: 2rem;
+}
+
+.proyectos-recientes h3 {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.proyectos-recientes img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.3 ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img {
+    opacity: 0.3;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btn-info i {
+    padding: 7px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*  Media QUeries overlay p (parrafo-letra proyectos recientes)    */
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
 
 /*  Media Queries hero-imagen-computers */
 @media screen and (min-width: 768px) {
