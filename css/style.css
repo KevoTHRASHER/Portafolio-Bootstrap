@@ -128,10 +128,6 @@ h1 {
 
 /*  Seccion Proyectos Recientes   */
 
-.proyectos-recientes {
-
-}
-
 .proyectos-recientes h2 {
     font-family: "Rubik Dirt";
     padding: 15px 0;
@@ -207,6 +203,31 @@ h1 {
     text-align: center;
 }
 
+/*  Seccion ARTICULOS   */
+
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header {
+    font-weight: bold;
+}
+
+.articulos h2 {
+    font-family: "Rubik Dirt";
+    font-size: 2rem;
+    color: black;
+}
+
+
+
 /*  Media QUeries overlay p (parrafo-letra proyectos recientes)    */
 @media screen and (max-width: 400px) {
     .overlay p {
@@ -232,4 +253,5 @@ h1 {
         display: none;
     }
 }
+
 
