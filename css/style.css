@@ -216,7 +216,7 @@ h1 {
 
 .articulos {
     min-height: 500px;
-    padding: 60px 30px;
+    padding: 60px 30px 50px 30px;
 }
 
 .articulos .card {
@@ -273,22 +273,21 @@ h1 {
 }
 
 .testimonio-info {
+    font-weight: bold;
     text-align: center;
 }
 
 .testimonio-info p {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .testimonio-info .cliente {
     font-size: 1.2rem;
-    font-weight: bold;
 }
 
 .testimonio-info .cargo {
     font-size: 0.9rem;
     color: #656060;
-    font-weight: bold;
 }
 
 /*  Media QUeries overlay p (parrafo-letra proyectos recientes)    */
@@ -302,13 +301,6 @@ h1 {
     }
 }
 
-/*  Media Queries hero-imagen-computers */
-@media screen and (min-width: 768px) {
-    .hero-imagen-computers {
-        max-width: 600px
-    }
-}
-
 /*  Media Queries Adaptable (Responsivo) */
 
 @media screen and (max-width: 767px) {
@@ -317,4 +309,21 @@ h1 {
     }
 }
 
+/*  Media Queries hero-imagen-computers */
+@media screen and (min-width: 768px) {
+    .hero-imagen-computers {
+        max-width: 600px
+    }
+}
 
+/*  Seccion TESTIMONIOS     */
+@media screen and (max-width: 800px) {
+    .testimonio-imagen {
+        height: 120px;
+        width: 120px;
+    }
+
+    .testimonio-texto {
+        font-size: 18px;
+    }
+}
